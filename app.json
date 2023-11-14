@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "cook-guy",
+    "slug": "cookguys",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f4b75e"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gbc.cookguy"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gbc.cookguy"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2748c9bc-6302-4e9c-8913-e67748eff77c"
+      }
+    },
+    "owner": "cookguys"
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-4872291343659458~5476953346",
+    "ios_app_id": "ca-app-pub-4872291343659458~5476953346"
+  }
+}
